@@ -1,5 +1,12 @@
 /* 
     1.  General Styles
+    2.  Font Styles
+    3.  Home Page Styles
+        3.1. Hero Section
+        3.2. Info Section
+        3.3. Recipe Section
+        3.4. Subscription Section
+    4.  Footer Styles
 */
 
 
@@ -8,6 +15,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 img, embed, object, video, picture {
@@ -43,4 +51,107 @@ p {
     margin-top: 25px;
 }
 
+.button-style {
+    border: 1px solid #4D4545;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px 32px;
+    font-size: 20px;
+    width: 165px;
+    background-color: #FFE394;
+}
+
+.button-style span {
+    font-size: 70px;
+    padding-right: 10px;
+}
+
+.button-style:hover {
+    background-color: #ffe294d2;
+    cursor: pointer;
+}
+
 /* ---End of General Styles--- */
+
+
+/* 2. ---Font Styles--- */
+
+.olivita {
+    font-family: "olivita", sans-serif;
+}
+
+.moonblossom {
+    font-family: "moonblossom", sans-serif;
+}
+
+.chowdown {
+    font-family: "chowdown", sans-serif;
+}
+
+/* ---End of Font Styles--- */
+
+
+/* 3. ---Home Page Styles--- */
+
+/* 3.1. Hero Section */
+
+#hero-section {
+    background-color: #BEDABC;
+    color: #4D4545;
+}
+
+#hero-section h2 {
+    font-size: 8.1vw;
+}
+
+#hero-section h3 {
+    font-size: 7vw;
+    font-weight: normal;
+}
+
+#hero-section hr {
+    border: none;
+    height: 1px;
+    background-color: #4D4545;
+}
+
+@media screen and (max-width: 1199px) {
+    #hero-section h2 {
+        font-size: 7.8vw;
+    }
+
+    #hero-section h3 {
+        font-size: 6.7vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #hero-section h2 {
+        font-size: 7.4vw;
+    }
+
+    #hero-section h3 {
+        font-size: 6.5vw;
+    }
+}
+
+#hero-section p {
+    font-size: 22px;
+}
+
+#hero-section p.small {
+    font-size: 15px;
+}
+
+/* 3.2. Info Section */
+
+/* 3.3. Recipe Section */
+
+/* 3.4. Subscription Section */
+
+/* ---End of Home Page Styles--- */
+
+
+/* 4. ---Footer Styles--- */
+
+/* ---End of Footer Styles--- */
