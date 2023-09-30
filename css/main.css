@@ -16,6 +16,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    color: #4D4545;
 }
 
 img, embed, object, video, picture {
@@ -97,7 +98,6 @@ p {
 
 #hero-section {
     background-color: #BEDABC;
-    color: #4D4545;
 }
 
 #hero-section h2 {
@@ -135,15 +135,32 @@ p {
     }
 }
 
-#hero-section p {
+#hero-section-text p {
     font-size: 22px;
 }
 
-#hero-section p.small {
+#hero-section-text p.small {
     font-size: 15px;
 }
 
+#hero-section-text {
+    margin-left: 100px;
+}
+
 /* 3.2. Info Section */
+
+#info-section div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#info-section-text p {
+    font-size: 20px;
+}
+
+#info-section-text {
+    margin-right: 100px;
+}
 
 /* 3.3. Recipe Section */
 
