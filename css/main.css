@@ -216,6 +216,25 @@ p {
     padding-bottom: 0;
 }
 
+#recipe-section-arrows {
+    z-index: 1;
+    position: relative;
+    margin-top: -92px;
+    margin-left: 20px;
+}
+
+#recipe-section-arrows img {
+    margin-right: 20px;
+}
+
+#recipe-section-arrows img:last-child {
+    margin-right: 0;
+}
+
+#recipe-section-arrows img:hover {
+    cursor: pointer;
+}
+
 /* 3.4. Subscription Section */
 
 /* ---End of Home Page Styles--- */
