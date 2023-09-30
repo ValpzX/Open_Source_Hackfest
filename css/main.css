@@ -17,6 +17,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     color: #4D4545;
+    font-family: "moonblossom", sans-serif;
 }
 
 img, embed, object, video, picture {
@@ -63,7 +64,7 @@ p {
 }
 
 .button-style span {
-    font-size: 70px;
+    font-size: 45px;
     padding-right: 10px;
 }
 
@@ -154,6 +155,10 @@ p {
     margin-bottom: auto;
 }
 
+#info-section-text span {
+    font-size: 28px;
+}
+
 #info-section-text p {
     font-size: 20px;
 }
@@ -163,6 +168,47 @@ p {
 }
 
 /* 3.3. Recipe Section */
+
+#recipe-section {
+    background-color: #FDB8B0;
+    width: 105%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.recipe-con {
+    background-color: white;
+    border-radius: 40px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 40px;
+}
+
+.recipe-con img {
+    border-radius: 40px;
+}
+
+.recipe-text {
+    margin-left: 55px;
+    padding: 0;
+}
+
+.recipe-text p {
+    font-size: 28px;
+}
+
+.recipe-text p.small {
+    font-size: 15px;
+}
+
+.recipe-btn {
+    margin-right: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
 
 /* 3.4. Subscription Section */
 
