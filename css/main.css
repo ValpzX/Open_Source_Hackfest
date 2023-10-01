@@ -149,6 +149,10 @@ p {
     margin-left: 100px;
 }
 
+#hero-section img {
+    border-radius: 40px;
+}
+
 #hero-section-text, #hero-section-img {
     margin-top: auto;
     margin-bottom: auto;
