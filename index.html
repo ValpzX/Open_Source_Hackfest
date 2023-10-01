@@ -62,7 +62,7 @@
                     <p class="small">10min — Easy — Serves 2 - Low CO2</p>
                 </div>
                 <div class="txt-spacer recipe-btn box-right">
-                    <a href="#" class="button-style"><span class="chowdown">p</span> VIEW RECIPE INFO</a>
+                    <a data-recipe="0" href="#" class="button-style"><span class="chowdown">p</span> VIEW RECIPE INFO</a>
                 </div>
             </article>
 
@@ -76,7 +76,7 @@
                     <p class="small">20min — Easy — Serves 4 - Low CO2</p>
                 </div>
                 <div class="txt-spacer recipe-btn box-right">
-                    <a href="#" class="button-style"><span class="chowdown">p</span> VIEW RECIPE INFO</a>
+                    <a data-recipe="1" href="#" class="button-style"><span class="chowdown">p</span> VIEW RECIPE INFO</a>
                 </div>
             </article>
 
@@ -90,7 +90,7 @@
                     <p class="small">25min — Easy — Serves 2 - Low CO2</p>
                 </div>
                 <div class="txt-spacer recipe-btn box-right">
-                    <a href="#" class="button-style"><span class="chowdown">p</span> VIEW RECIPE INFO</a>
+                    <a data-recipe="2" href="#" class="button-style"><span class="chowdown">p</span> VIEW RECIPE INFO</a>
                 </div>
             </article>
         </section>
@@ -184,6 +184,35 @@
             </div>
         </article>
     </footer>
+
+    <section class="grid-con recipes-lightbox">
+        <h2 class="hidden">Recipes Lightbox</h2>
+        <div class="l-col-start-12 l-col-end-13 box-right">
+            <i id="lightbox-close" class="fa-solid fa-x"></i>
+        </div>
+
+        <div class="l-col-start-3 l-col-end-11 box-center" id="lightbox-left">
+            <img id="lightbox-image" src="images/breakfast-toast.png" alt="avocado, banana & blueberry, and tomato toast">
+        </div>
+
+        <div class="l-col-start-4 l-col-end-10 box-left" id="lightbox-right">
+            <p id="lightbox-recipe" class="olivita">Recipe Name</p>
+            <p>Plant-based and Low Carbon Meal</p>
+
+            <hr class="txt-spacer">
+
+            <p class="olivita txt-spacer">Description</p>
+            <p id="lightbox-description">Text</p><br>
+
+            <p class="olivita txt-spacer">Ingredients</p>
+            <p id="lightbox-ingredients">Text</p><br>
+
+            <p class="olivita txt-spacer">Nutritional Facts</p>
+            <p id="lightbox-nutritional-facts">Text</p><br>
+
+            <hr>
+        </div>
+    </section>
 
     <script src="https://kit.fontawesome.com/0eab0f8aa6.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>

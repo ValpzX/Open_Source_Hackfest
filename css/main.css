@@ -7,6 +7,7 @@
         3.3. Recipe Section
         3.4. Services Section
     4.  Footer Styles
+    5.  Lightbox Styles
 */
 
 
@@ -330,3 +331,48 @@ footer h2 {
 }
 
 /* ---End of Footer Styles--- */
+
+
+/* ---Lightbox Styles--- */
+
+.recipes-lightbox {
+    visibility: hidden;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.recipes-lightbox hr {
+    border: none;
+    height: 1px;
+    background-color: #4D4545;
+}
+
+#lightbox-close {
+    font-size: 30px;
+}
+
+#lightbox-close:hover {
+    cursor: pointer;
+}
+
+#lightbox-left, #lightbox-right {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.recipes-lightbox img {
+    border-radius: 40px;
+}
+
+.recipes-lightbox .olivita {
+    font-size: 22px;
+}
+
+/* ---End of Lightbox Styles--- */
