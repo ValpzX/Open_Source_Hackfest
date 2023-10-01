@@ -117,7 +117,7 @@ p {
     background-color: #4D4545;
 }
 
-@media screen and (max-width: 1199px) {
+/*@media screen and (max-width: 1199px) {
     #hero-section h2 {
         font-size: 7.8vw;
     }
@@ -135,7 +135,7 @@ p {
     #hero-section h3 {
         font-size: 6.5vw;
     }
-}
+}*/
 
 #hero-section-text p {
     font-size: 22px;
@@ -272,5 +272,56 @@ p {
 
 
 /* 4. ---Footer Styles--- */
+
+footer {
+    background-color: #3C3C3C;
+    background-image: url(../images/footer-overlay.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 100px;
+}
+
+footer p {
+    font-size: 30px;
+}
+
+#socials div, #contact div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#socials, #contact {
+    margin-left: 80px;
+}
+
+#socials ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 50px;
+}
+
+#socials ul li:last-of-type {
+    margin-right: 0;
+}
+
+#contact .button-style {
+    color: #4D4545;
+    font-size: 28px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+footer h2 {
+    font-size: 8.1vw;
+    color: #FDB8B0;
+}
 
 /* ---End of Footer Styles--- */
